@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+}
+
+div {
+  margin: 0px;
+}
+
+.grid-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-container div {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: rgb(255, 115, 0);
+}
+
+.purple {
+  background-color: purple;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: rgb(224, 0, 183);
+}
+
+.brown {
+  background-color: brown;
+}
+
+.light-pink {
+  background-color: rgb(255, 116, 227);
+}
+
+.dark-purple {
+  background-color: rgb(71, 0, 104);
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.light-grey {
+  background-color: lightgrey;
+}

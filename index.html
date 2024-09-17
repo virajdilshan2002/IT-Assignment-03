@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment - 03 (Viraj-Dilshan)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: rgb(10, 10, 10);
+        font-family: "Roboto Mono", monospace;
+      }
+
+      p {
+        margin: 0;
+        text-align: center;
+      }
+
+      .topic {
+        color: rgb(234, 234, 234);
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        font-size: 40px;
+        font-weight: 500;
+      }
+
+      .signature {
+        color: rgb(204, 204, 204);
+        position: absolute;
+        bottom: 30px;
+        right: 50%;
+        transform: translate(50%, 0%);
+        font-family: "Caveat", cursive;
+        font-size: 20px;
+        transition: 1s;
+        animation: shake 5s;
+      }
+
+      .signature:hover {
+        color: white;
+      }
+
+      .grid {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: grid;
+        width: 60%;
+        height: 50%;
+        gap: 8px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-image: radial-gradient(
+          rgb(16, 21, 92) 0%,
+          rgb(0, 0, 0) 100%
+        );
+      }
+
+      .case {
+        text-decoration: none;
+        color: rgb(198, 198, 198);
+        background-color: rgb(10, 10, 10);
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+
+      .case:hover {
+        color: white;
+        transform: scale(1.02);
+        background-color: rgba(0, 17, 255, 0.421);
+      }
+
+      .case p {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <p class="topic">Internet Technology Assignment - 03</p>
+      <div class="grid">
+        <a href="/cases/case-1.html" class="case"><p>CASE - 01</p></a>
+        <a href="/cases/case-2.html" class="case"><p>CASE - 02</p></a>
+        <a href="/cases/case-3.html" class="case"><p>CASE - 03</p></a>
+        <a href="/cases/case-4.html" class="case"><p>CASE - 04</p></a>
+        <a href="/cases/case-5.html" class="case"><p>CASE - 05</p></a>
+        <a href="/cases/case-6.html" class="case"><p>CASE - 06</p></a>
+      </div>
+    </main>
+    <footer>
+      <p class="signature">- L.G.H Viraj Dilshan -</p>
+    </footer>
+  </body>
+</html>

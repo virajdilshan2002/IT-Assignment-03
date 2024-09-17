@@ -1,0 +1,88 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+body,
+p {
+  margin: 0px;
+}
+
+.card-container {
+  width: 100%;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: black;
+}
+
+.card-1 {
+  background-color: white;
+}
+
+.card-2 {
+  background-color: rgb(0, 166, 255);
+}
+
+.card-3 {
+  background-color: rgb(104, 95, 87);
+}
+
+.card-4 {
+  background-color: rgb(255, 46, 46);
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p,
+.card-4 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  font-weight: 500;
+}
+
+.topic-1,
+.topic-2,
+.topic-3,
+.topic-4 {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+.topic-1 {
+  background-color: red;
+}
+.topic-2 {
+  background-color: rgb(0, 32, 135);
+}
+.topic-3 {
+  background-color: rgb(46, 46, 46);
+}
+.topic-4 {
+  background-color: rgb(153, 0, 0);
+}
+
+.topic-1 p,
+.topic-2 p,
+.topic-3 p,
+.topic-4 p {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translate(0%, -50%);
+  font-size: 30px;
+}
